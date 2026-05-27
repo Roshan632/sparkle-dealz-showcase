@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { ThemeToggle } from "./ThemeToggle";
 
 const links = [
   { label: "Collections", href: "#collections" },
@@ -53,15 +54,18 @@ export function Navbar() {
           ))}
         </nav>
 
-        <a
-          href="https://wa.me/919999999999"
-          target="_blank"
-          rel="noreferrer"
-          className="hidden md:inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-4 py-2 text-sm font-medium text-gold transition-all hover:bg-gold hover:text-primary-foreground hover:shadow-glow"
-        >
-          <WhatsAppIcon className="h-4 w-4" />
-          Chat / Call
-        </a>
+        <div className="flex items-center gap-3">
+          <ThemeToggle />
+          <a
+            href="https://wa.me/919999999999"
+            target="_blank"
+            rel="noreferrer"
+            className="hidden md:inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-4 py-2 text-sm font-medium text-gold transition-all hover:bg-gold hover:text-primary-foreground hover:shadow-glow"
+          >
+            <WhatsAppIcon className="h-4 w-4" />
+            Chat / Call
+          </a>
+        </div>
       </div>
     </motion.header>
   );

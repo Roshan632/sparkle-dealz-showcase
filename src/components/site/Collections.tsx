@@ -50,7 +50,7 @@ export function Collections() {
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.4s] ease-out group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />
-              <div className="absolute inset-0 ring-1 ring-inset ring-white/5" />
+              <div className="absolute inset-0 ring-1 ring-inset ring-foreground/5" />
 
               <div className="absolute bottom-0 left-0 right-0 flex items-end justify-between p-6">
                 <div>

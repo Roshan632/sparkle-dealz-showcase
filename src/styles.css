@@ -38,7 +38,7 @@
   --color-whatsapp: var(--whatsapp);
 
   --shadow-glow: 0 20px 80px -20px color-mix(in oklab, var(--gold) 40%, transparent);
-  --shadow-card: 0 30px 60px -30px color-mix(in oklab, black 70%, transparent);
+  --shadow-card: 0 30px 60px -30px color-mix(in oklab, var(--foreground) 15%, transparent);
 
   --animate-marquee: marquee 35s linear infinite;
   --animate-float: float 6s ease-in-out infinite;
@@ -61,6 +61,41 @@
 :root {
   --radius: 0.875rem;
 
+  /* Light mode — warm cream with charcoal text */
+  --background: oklch(0.96 0.008 80);
+  --foreground: oklch(0.22 0.015 70);
+
+  --card: oklch(0.93 0.008 80);
+  --card-foreground: oklch(0.22 0.015 70);
+
+  --popover: oklch(0.93 0.008 80);
+  --popover-foreground: oklch(0.22 0.015 70);
+
+  --primary: oklch(0.76 0.15 75);
+  --primary-foreground: oklch(0.97 0.005 80);
+
+  --secondary: oklch(0.90 0.01 80);
+  --secondary-foreground: oklch(0.22 0.015 70);
+
+  --muted: oklch(0.88 0.01 80);
+  --muted-foreground: oklch(0.52 0.015 70);
+
+  --accent: oklch(0.76 0.15 75);
+  --accent-foreground: oklch(0.97 0.005 80);
+
+  --destructive: oklch(0.65 0.22 25);
+  --destructive-foreground: oklch(0.98 0.003 80);
+
+  --border: oklch(0.80 0.015 65 / 60%);
+  --input: oklch(0.80 0.015 65);
+  --ring: oklch(0.76 0.15 75);
+
+  --gold: oklch(0.68 0.15 75);
+  --gold-soft: oklch(0.78 0.11 80);
+  --whatsapp: oklch(0.55 0.18 145);
+}
+
+.dark {
   /* Deep charcoal canvas with warm amber gold accents */
   --background: oklch(0.16 0.012 60);
   --foreground: oklch(0.96 0.012 80);
@@ -104,12 +139,13 @@
     font-family: var(--font-sans);
     font-feature-settings: "ss01", "cv11";
     -webkit-font-smoothing: antialiased;
+    transition: background-color 0.5s ease, color 0.5s ease;
   }
   .font-display { font-family: var(--font-display); letter-spacing: -0.02em; }
   .text-balance { text-wrap: balance; }
 
   .gold-text {
-    background: linear-gradient(110deg, oklch(0.92 0.12 85) 10%, oklch(0.78 0.18 70) 50%, oklch(0.92 0.12 85) 90%);
+    background: linear-gradient(110deg, var(--gold-soft) 10%, var(--gold) 50%, var(--gold-soft) 90%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
