@@ -8,6 +8,7 @@ import { Marquee } from "@/components/site/Marquee";
 import { Collections } from "@/components/site/Collections";
 import { Showcase } from "@/components/site/Showcase";
 import { Why } from "@/components/site/Why";
+import { FeaturedProducts } from "@/components/site/FeaturedProducts";
 import { Testimonials } from "@/components/site/Testimonials";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
@@ -20,7 +21,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "New Janaki Enterprises — your trusted family-run store for refrigerators, televisions, ACs, washing machines and furniture. Authentic brands, fair prices, doorstep delivery.",
+          "New Janaki Enterprises — your trusted family-run store for refrigerators, televisions, ACs, washing machines,fans and furniture. Authentic brands, fair prices, doorstep delivery.",
       },
       { property: "og:title", content: "New Janaki Enterprises" },
       {
@@ -57,6 +58,7 @@ function Index() {
       <Marquee />
       <Collections />
       <Showcase />
+      <FeaturedProducts />
       <Why />
       <Testimonials />
       <Contact />

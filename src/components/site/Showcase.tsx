@@ -93,7 +93,7 @@ export function Showcase() {
                 loading="lazy"
                 className="h-full w-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-background/40 via-transparent to-transparent md:from-background/60" />
+              <div className="absolute inset-0 bg-linear-to-r from-background/40 via-transparent to-transparent md:from-background/60" />
             </div>
           </div>
         ))}

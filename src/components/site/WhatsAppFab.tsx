@@ -4,7 +4,7 @@ import { WhatsAppIcon } from "./Navbar";
 export function WhatsAppFab() {
   return (
     <motion.a
-      href="https://wa.me/919999999999?text=Hi%20New%20Janaki%20Enterprises%2C%20I%27d%20like%20to%20enquire%20about"
+      href="https://wa.me/9779804973436?text=Hi%20New%20Janaki%20Enterprises%2C%20I%27d%20like%20to%20enquire%20about"
       target="_blank"
       rel="noreferrer"
       aria-label="Chat or call on WhatsApp"

@@ -102,8 +102,8 @@ export function Hero() {
           className="mt-20 grid max-w-2xl grid-cols-3 gap-8 border-t border-border pt-8"
         >
           {[
-            ["20+", "Years of trust"],
-            ["50+", "Brand partners"],
+            ["10+", "Years of trust"],
+            [ " LG-CG Brand partners"],
             ["10k+", "Happy homes"],
           ].map(([n, l]) => (
             <div key={l}>

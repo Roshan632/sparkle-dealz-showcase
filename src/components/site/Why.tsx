@@ -20,7 +20,7 @@ const features = [
   {
     icon: Sparkles,
     title: "Best-in-town pricing",
-    body: "Loyal customer pricing, festive bundles and flexible EMI plans on request.",
+    body: "Loyal customer pricing, festive bundles and flexible plans regarding buy now and pay later on request.",
   },
 ];
 
@@ -36,12 +36,12 @@ export function Why() {
             <h2 className="mt-4 font-display text-4xl leading-[1.05] tracking-tight md:text-5xl">
               A family name <br />
               <span className="italic gold-text">homes have trusted</span> <br />
-              for two decades.
+              for decades.
             </h2>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
               We're not a faceless marketplace. We're your neighbourhood store
               — the one that remembers your name, your last purchase, and your
-              fridge's exact size.
+              fridge's and items' exact size.
             </p>
           </div>
 

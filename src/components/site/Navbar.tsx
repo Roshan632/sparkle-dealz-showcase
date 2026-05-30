@@ -57,7 +57,7 @@ export function Navbar() {
         <div className="flex items-center gap-3">
           <ThemeToggle />
           <a
-            href="https://wa.me/919999999999"
+            href="https://wa.me/9779804973436?text=Hi%20New%20Janaki%20Enterprises%2C%20I%27m%20interested%20in"
             target="_blank"
             rel="noreferrer"
             className="hidden md:inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-4 py-2 text-sm font-medium text-gold transition-all hover:bg-gold hover:text-primary-foreground hover:shadow-glow"
