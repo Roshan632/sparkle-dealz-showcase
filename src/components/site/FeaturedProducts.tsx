@@ -6,6 +6,7 @@ import {
   CarouselPrevious,
   CarouselNext,
 } from "@/components/ui/carousel";
+
 import fridge from "@/assets/fridge.jpg";
 import tv from "@/assets/tv.jpg";
 import ac from "@/assets/ac.jpg";
@@ -15,6 +16,7 @@ import bed from "@/assets/bed.jpg";
 import lgcgfridge from "@/assets/lgfridge.jpg";
 import lgtv from "@/assets/lgtv.jpg";
 import studytable from "@/assets/studytable.jpg";
+import daraz from "@/assets/daraz.jpg";
 
 
 
@@ -64,6 +66,16 @@ const products = [
     img: studytable, // You can replace this with a specific study table image if available
     details: "Modern study table with storage, engineered wood, perfect for home/office.",
   },
+  // --- Daraz Items ---
+  
+  
+  {
+    name: "Daraz Home Decor Set",
+    category: "Daraz Special",
+    img: daraz,
+    details: "Modern Daraz furniture made specifically for modern homes ",
+  },
+  // --- End Daraz Items ---
 ];
 
 export function FeaturedProducts() {
