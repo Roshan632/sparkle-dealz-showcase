@@ -1,0 +1,9 @@
+{
+  "name": "sparkle-dealz-showcase",
+  "main": ".output/server/index.mjs",
+  "compatibility_date": "2024-04-01",
+  "assets": {
+    "directory": ".output/public",
+    "binding": "ASSETS"
+  }
+}
