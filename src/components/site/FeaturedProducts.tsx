@@ -12,8 +12,9 @@ import ac from "@/assets/ac.jpg";
 import furniture from "@/assets/furniture.jpg";
 import washer from "@/assets/washer.jpg";
 import bed from "@/assets/bed.jpg";
-import lgcgfridge from "@/assets/lgcgfridge.jpg";
+import lgcgfridge from "@/assets/lgfridge.jpg";
 import lgtv from "@/assets/lgtv.jpg";
+import studytable from "@/assets/studytable.jpg";
 
 
 
@@ -56,6 +57,12 @@ const products = [
     category: "Furniture",
     img: bed,
     details: "King size, premium comfort, storage.",
+  },
+  {
+    name: "Study Table",
+    category: "Furniture",
+    img: studytable, // You can replace this with a specific study table image if available
+    details: "Modern study table with storage, engineered wood, perfect for home/office.",
   },
 ];
 
