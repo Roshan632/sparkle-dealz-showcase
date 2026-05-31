@@ -12,7 +12,7 @@ import ac from "@/assets/ac.jpg";
 import furniture from "@/assets/furniture.jpg";
 import washer from "@/assets/washer.jpg";
 import BED from "@/assets/bed.jpg";
-import Lgcgfridge from "@/assets/Lgcgfridge.jpg";
+import lgcgfridge from "@/assets/Lgcgfridge.jpg";
 import lgtv from "@/assets/Lgtv.jpg";
 
 
@@ -21,7 +21,7 @@ const products = [
   {
     name: "Premium Fridge",
     category: "Home Appliance",
-    img: Lgcgfridge,
+    img: lgcgfridge,
     details:"Meridia 192 Liter Single Door Refrigerator",
     // details: "Double door, inverter, 340L capacity.",
   },
