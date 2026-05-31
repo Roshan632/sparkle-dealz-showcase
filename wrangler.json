@@ -1,9 +1,11 @@
+
+
 {
   "name": "sparkle-dealz-showcase",
   "compatibility_date": "2024-04-01",
   "assets": {
-    "directory": "dist/client"
-  }
+    "directory": "./dist/client",
+    "binding": "ASSETS"
+  },
+  "main": "./dist/server/server.js"
 }
-
-
