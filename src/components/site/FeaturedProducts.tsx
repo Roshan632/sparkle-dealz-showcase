@@ -11,9 +11,9 @@ import tv from "@/assets/tv.jpg";
 import ac from "@/assets/ac.jpg";
 import furniture from "@/assets/furniture.jpg";
 import washer from "@/assets/washer.jpg";
-import Bed from "@/assets/bed.jpg";
-import lgcgfridge from "@/assets/Lgcgfridge.jpg";
-import lgtv from "@/assets/Lgtv.jpg";
+import bed from "@/assets/bed.jpg";
+import lgcgfridge from "@/assets/lgcgfridge.jpg";
+import lgtv from "@/assets/lgtv.jpg";
 
 
 
@@ -54,7 +54,7 @@ const products = [
   {
     name: "Luxury Bed",
     category: "Furniture",
-    img: Bed,
+    img: bed,
     details: "King size, premium comfort, storage.",
   },
 ];
