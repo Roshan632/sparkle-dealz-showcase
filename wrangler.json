@@ -3,9 +3,10 @@
 {
   "name": "sparkle-dealz-showcase",
   "compatibility_date": "2024-04-01",
+  "main": ".output/server/index.mjs",
   "assets": {
-    "directory": "./dist/client",
+    "directory": ".output/public",
     "binding": "ASSETS"
-  },
-  "main": "./dist/server/server.js"
+  }
 }
+
