@@ -11,6 +11,8 @@
     "lint": "eslint .",
     "format": "prettier --write ."
   },
+  
+
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@hookform/resolvers": "^5.2.2",
