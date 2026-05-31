@@ -27,7 +27,7 @@ export function Hero() {
     <section
       id="top"
       ref={ref}
-      className="relative isolate min-h-[100svh] overflow-hidden"
+      className="relative isolate min-h-svh overflow-hidden"
     >
       {/* Background image */}
       <div className="hero-parallax absolute inset-0 -z-10">
@@ -38,12 +38,12 @@ export function Hero() {
           width={1600}
           height={1100}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/85 via-background/60 to-background" />
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/30 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-b from-background/85 via-background/60 to-background" />
+        <div className="absolute inset-0 bg-linear-to-r from-background via-background/30 to-transparent" />
       </div>
       <div className="grain pointer-events-none absolute inset-0 -z-10 opacity-30 mix-blend-overlay" />
 
-      <div className="relative mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-center px-6 pt-32 pb-20">
+      <div className="relative mx-auto flex min-h-svh max-w-7xl flex-col justify-center px-6 pt-32 pb-20">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
@@ -81,7 +81,7 @@ export function Hero() {
         >
           <a
             href="#collections"
-            className="group relative inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-gold to-gold-soft px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:-translate-y-0.5"
+            className="group relative inline-flex items-center gap-2 rounded-full bg-linear-to-r from-gold to-gold-soft px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:-translate-y-0.5"
           >
             Explore Collections
             <span className="transition-transform group-hover:translate-x-1">→</span>
