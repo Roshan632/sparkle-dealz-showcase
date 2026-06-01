@@ -51,7 +51,7 @@ export function Hero() {
           className="inline-flex w-fit items-center gap-2 rounded-full border border-gold/30 bg-gold/5 px-3.5 py-1.5 text-xs uppercase tracking-[0.25em] text-gold"
         >
           <span className="h-1.5 w-1.5 rounded-full bg-gold animate-pulse" />
-          Est. Trusted Home Appliances
+          Established. Trusted Home Appliances
         </motion.div>
 
         <h1 className="mt-7 max-w-4xl font-display text-5xl leading-[0.95] tracking-tight text-balance md:text-7xl lg:text-[6.5rem]">
