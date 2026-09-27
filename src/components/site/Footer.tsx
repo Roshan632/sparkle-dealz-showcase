@@ -9,9 +9,15 @@ export function Footer() {
           <span>© {new Date().getFullYear()} New Janaki Enterprises. All rights reserved.</span>
         </div>
         <div className="flex items-center gap-5">
-          <a href="#collections" className="hover:text-foreground">Collections</a>
-          <a href="#why" className="hover:text-foreground">Why us</a>
-          <a href="#contact" className="hover:text-foreground">Visit</a>
+          <a href="#collections" className="hover:text-foreground">
+            Collections
+          </a>
+          <a href="#why" className="hover:text-foreground">
+            Why us
+          </a>
+          <a href="#contact" className="hover:text-foreground">
+            Visit
+          </a>
         </div>
       </div>
     </footer>

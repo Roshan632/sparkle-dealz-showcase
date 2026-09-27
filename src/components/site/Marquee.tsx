@@ -1,6 +1,16 @@
 const items = [
-  "Samsung", "LG", "Sony", "Whirlpool", "Godrej", "Voltas",
-  "Daikin", "Panasonic", "Bosch", "Haier", "IFB", "Hitachi",
+  "Samsung",
+  "LG",
+  "Sony",
+  "Whirlpool",
+  "Godrej",
+  "Voltas",
+  "Daikin",
+  "Panasonic",
+  "Bosch",
+  "Haier",
+  "IFB",
+  "Hitachi",
 ];
 
 export function Marquee() {

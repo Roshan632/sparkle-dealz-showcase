@@ -44,9 +44,7 @@ export function Testimonials() {
               transition={{ duration: 0.6, delay: i * 0.08 }}
               className="relative flex flex-col justify-between rounded-2xl border border-border bg-card p-7"
             >
-              <span className="font-display text-6xl leading-none text-gold/30">
-                "
-              </span>
+              <span className="font-display text-6xl leading-none text-gold/30">"</span>
               <blockquote className="-mt-6 text-base leading-relaxed text-foreground">
                 {r.quote}
               </blockquote>

@@ -20,15 +20,11 @@ export function Hero() {
         },
       });
     },
-    { scope: ref }
+    { scope: ref },
   );
 
   return (
-    <section
-      id="top"
-      ref={ref}
-      className="relative isolate min-h-svh overflow-hidden"
-    >
+    <section id="top" ref={ref} className="relative isolate min-h-svh overflow-hidden">
       {/* Background image */}
       <div className="hero-parallax absolute inset-0 -z-10">
         <img
@@ -68,9 +64,8 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.9 }}
           className="mt-7 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg"
         >
-          Refrigerators, televisions, air conditioners, furniture and more —
-          handpicked from leading brands, delivered with the warmth only a
-          family-run store can offer.
+          Refrigerators, televisions, air conditioners, furniture and more — handpicked from leading
+          brands, delivered with the warmth only a family-run store can offer.
         </motion.p>
 
         <motion.div
@@ -101,18 +96,16 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 1.3 }}
           className="mt-20 grid max-w-2xl grid-cols-3 gap-8 border-t border-border pt-8"
         >
-          {[
-            ["10+", "Years of trust"],
-            [ " LG-CG Brand partners"],
-            ["10k+", "Happy homes"],
-          ].map(([n, l]) => (
-            <div key={l}>
-              <div className="font-display text-3xl md:text-4xl gold-text">{n}</div>
-              <div className="mt-1 text-xs uppercase tracking-widest text-muted-foreground">
-                {l}
+          {[["10+", "Years of trust"], [" LG-CG Brand partners"], ["10k+", "Happy homes"]].map(
+            ([n, l]) => (
+              <div key={l}>
+                <div className="font-display text-3xl md:text-4xl gold-text">{n}</div>
+                <div className="mt-1 text-xs uppercase tracking-widest text-muted-foreground">
+                  {l}
+                </div>
               </div>
-            </div>
-          ))}
+            ),
+          )}
         </motion.div>
       </div>
 

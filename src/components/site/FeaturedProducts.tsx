@@ -18,14 +18,12 @@ import lgtv from "@/assets/lgtv.jpg";
 import studytable from "@/assets/studytable.jpg";
 import daraz from "@/assets/daraz.jpg";
 
-
-
 const products = [
   {
     name: "Premium Fridge",
     category: "Home Appliance",
     img: lgcgfridge,
-    details:"Meridia 192 Liter Single Door Refrigerator",
+    details: "Meridia 192 Liter Single Door Refrigerator",
     // details: "Double door, inverter, 340L capacity.",
   },
   {
@@ -33,7 +31,7 @@ const products = [
     category: "Home Appliance",
     img: lgtv,
     // details: "65'' 4K UHD, Android TV, Dolby Audio.",
-    details: "65-Inch 4K UHD NanoCell Smart TV | AI ThinQ, HDR, HDMI 2.1"
+    details: "65-Inch 4K UHD NanoCell Smart TV | AI ThinQ, HDR, HDMI 2.1",
   },
   {
     name: "Washing Machine",
@@ -67,8 +65,7 @@ const products = [
     details: "Modern study table with storage, engineered wood, perfect for home/office.",
   },
   // --- Daraz Items ---
-  
-  
+
   {
     name: "Daraz Home Decor Set",
     category: "Daraz Special",
@@ -82,10 +79,8 @@ export function FeaturedProducts() {
   return (
     <section className="py-16 bg-linear-to-b from-background to-muted">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-          Featured Products
-        </h2>
-        <Carousel opts={{ loop: true, align: 'start' }}>
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Featured Products</h2>
+        <Carousel opts={{ loop: true, align: "start" }}>
           <CarouselContent>
             {products.map((product, idx) => (
               <CarouselItem key={idx} className="basis-1/2 md:basis-1/3 flex justify-center">
@@ -101,9 +96,7 @@ export function FeaturedProducts() {
                   <div className="text-xs uppercase tracking-wide text-muted-foreground mb-1">
                     {product.category}
                   </div>
-                  <div className="text-sm text-foreground mb-2">
-                    {product.details}
-                  </div>
+                  <div className="text-sm text-foreground mb-2">{product.details}</div>
                   <span className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
                 </div>
               </CarouselItem>

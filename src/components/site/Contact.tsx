@@ -31,8 +31,7 @@ export function Contact() {
           <span className="italic gold-text">We'll handle the rest.</span>
         </motion.h2>
         <p className="mx-auto mt-6 max-w-xl text-base text-muted-foreground">
-          Drop by the showroom or send a quick WhatsApp message — we usually
-          reply within minutes.
+          Drop by the showroom or send a quick WhatsApp message — we usually reply within minutes.
         </p>
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
@@ -56,7 +55,11 @@ export function Contact() {
 
         <div className="mt-16 grid gap-px overflow-hidden rounded-2xl border border-border bg-border text-left sm:grid-cols-3">
           {[
-            { icon: MapPin, title: "Showroom", body: "Bhadrapur Market Road, Bhadrapur,Jhapa\nLandmark nearby" },
+            {
+              icon: MapPin,
+              title: "Showroom",
+              body: "Bhadrapur Market Road, Bhadrapur,Jhapa\nLandmark nearby",
+            },
             { icon: Clock, title: "Open", body: "Mon — Sat · 10:00 — 9:00\nSun · 10:00 — 9:00" },
             { icon: Phone, title: "Reach us", body: "+977 9804973436" },
           ].map((c) => (
@@ -65,9 +68,7 @@ export function Contact() {
               <div className="mt-4 text-xs uppercase tracking-[0.25em] text-muted-foreground">
                 {c.title}
               </div>
-              <div className="mt-2 whitespace-pre-line text-sm text-foreground">
-                {c.body}
-              </div>
+              <div className="mt-2 whitespace-pre-line text-sm text-foreground">{c.body}</div>
             </div>
           ))}
         </div>

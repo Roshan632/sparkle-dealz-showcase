@@ -30,18 +30,15 @@ export function Why() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-16 md:grid-cols-12">
           <div className="md:col-span-5">
-            <span className="text-xs uppercase tracking-[0.3em] text-gold">
-              — Why New Janaki
-            </span>
+            <span className="text-xs uppercase tracking-[0.3em] text-gold">— Why New Janaki</span>
             <h2 className="mt-4 font-display text-4xl leading-[1.05] tracking-tight md:text-5xl">
               A family name <br />
               <span className="italic gold-text">homes have trusted</span> <br />
               for decades.
             </h2>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
-              We're not a faceless marketplace. We're your neighbourhood store
-              — the one that remembers your name, your last purchase, and your
-              fridge's and items' exact size.
+              We're not a faceless marketplace. We're your neighbourhood store — the one that
+              remembers your name, your last purchase, and your fridge's and items' exact size.
             </p>
           </div>
 
@@ -59,9 +56,7 @@ export function Why() {
                   <f.icon className="h-5 w-5" />
                 </div>
                 <h3 className="mt-5 font-display text-xl">{f.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  {f.body}
-                </p>
+                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{f.body}</p>
               </motion.div>
             ))}
           </div>

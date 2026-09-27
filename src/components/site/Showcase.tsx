@@ -49,11 +49,11 @@ export function Showcase() {
               end: () => `+=${window.innerHeight}`,
               scrub: true,
             },
-          }
+          },
         );
       });
     },
-    { scope: ref }
+    { scope: ref },
   );
 
   return (
@@ -71,9 +71,7 @@ export function Showcase() {
             style={{ zIndex: i + 1 }}
           >
             <div className="relative order-2 flex flex-col justify-center bg-background px-6 py-16 md:order-1 md:px-16 lg:px-24">
-              <span className="text-xs uppercase tracking-[0.3em] text-gold">
-                — {s.kicker}
-              </span>
+              <span className="text-xs uppercase tracking-[0.3em] text-gold">— {s.kicker}</span>
               <h3 className="mt-5 max-w-lg font-display text-3xl leading-[1.1] md:text-5xl">
                 {s.title}
               </h3>

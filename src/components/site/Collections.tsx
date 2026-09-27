@@ -4,7 +4,6 @@ import tv from "@/assets/tv.jpg";
 import ac from "@/assets/ac.jpg";
 import furniture from "@/assets/furniture.jpg";
 import washer from "@/assets/washer.jpg";
-
 const items = [
   { title: "Refrigerators", tag: "Cool & quiet", img: fridge, span: "md:col-span-2 md:row-span-2" },
   { title: "Televisions", tag: "Cinema at home", img: tv, span: "md:col-span-2" },
@@ -19,16 +18,15 @@ export function Collections() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div>
-            <span className="text-xs uppercase tracking-[0.3em] text-gold">
-              — Collections
-            </span>
+            <span className="text-xs uppercase tracking-[0.3em] text-gold">— Collections</span>
             <h2 className="mt-4 max-w-2xl font-display text-4xl leading-[1.05] tracking-tight md:text-6xl">
-              Built for every room, <span className="italic gold-text">curated for taste.</span>
+              Built for Roshan Yadav every room{" "}
+              <span className="italic gold-text">curated for taste.</span>
             </h2>
           </div>
           <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
-            From the kitchen to the living room — explore an extensive line-up
-            from the brands you already trust.
+            From the kitchen to the living room — explore an extensive line-up from the brands you
+            already trust.
           </p>
         </div>
 
@@ -54,12 +52,8 @@ export function Collections() {
 
               <div className="absolute bottom-0 left-0 right-0 flex items-end justify-between p-6">
                 <div>
-                  <div className="text-[10px] uppercase tracking-[0.3em] text-gold">
-                    {it.tag}
-                  </div>
-                  <h3 className="mt-2 font-display text-2xl md:text-3xl">
-                    {it.title}
-                  </h3>
+                  <div className="text-[10px] uppercase tracking-[0.3em] text-gold">{it.tag}</div>
+                  <h3 className="mt-2 font-display text-2xl md:text-3xl">{it.title}</h3>
                 </div>
                 <div className="flex h-10 w-10 items-center justify-center rounded-full border border-gold/40 bg-background/40 text-gold backdrop-blur transition-all group-hover:bg-gold group-hover:text-primary-foreground group-hover:rotate-[-45deg]">
                   →
