@@ -20,7 +20,7 @@ export function Collections() {
           <div>
             <span className="text-xs uppercase tracking-[0.3em] text-gold">— Collections</span>
             <h2 className="mt-4 max-w-2xl font-display text-4xl leading-[1.05] tracking-tight md:text-6xl">
-              Built for Roshan Yadav every room{" "}
+              Built for every room
               <span className="italic gold-text">curated for taste.</span>
             </h2>
           </div>
